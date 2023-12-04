@@ -1,0 +1,70 @@
+	#### Dev click counter ###
+	#ARUMBA LINES
+
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_adm_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_adm_clicks
+				value = 0
+			}
+		}
+	}
+	
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_dip_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_dip_clicks
+				value = 0
+			}
+		}
+	}
+
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_mil_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_mil_clicks
+				value = 0
+			}
+		}
+	}
+
+	every_country = {
+		if = {
+			limit = {
+				check_variable = {
+					which = dev_sum_clicks					
+					value = 1
+				}
+			}
+		}
+		else = {
+			set_variable = {
+				which = dev_sum_clicks
+				value = 0
+			}
+		}
+	}
